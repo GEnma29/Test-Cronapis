@@ -54,7 +54,7 @@ export default function Home({ properties }) {
         <div className="grid">
           {
             properties && properties.map(property =>
-              <div key={property.id} className="card" >
+              <div key={property._id} className="card" >
                  <img src = {property.imageUrl}
                  />
                 <h3>{property.name}</h3>
